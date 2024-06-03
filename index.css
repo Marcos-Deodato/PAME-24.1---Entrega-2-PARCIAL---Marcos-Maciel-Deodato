@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5)), url('img/Foto_Fluxo.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+#email{
+height: 25px;
+}
+
+#password{
+    height: 25px;
+}
+
+a {
+    color: orange;
+}
+
+label{
+    color: orange;
+}
+
+
+.container {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+header .logo {
+    width: 80px;
+    margin-right: 50px;
+}
+
+.header-img {
+    display: flex;
+    align-items: center;
+    margin-left: 100px ;
+}
+
+.header-text {
+    text-align: left;
+    color: orange;
+    font-weight: lighter;
+    font-size: small;
+    margin-right: 200px;
+}
+
+.header-text h1,
+.header-text h2 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.espelho {
+    max-width: 300px;
+}
+
+.f-login {
+    margin-left: 130px;
+    width: 300px;
+    font-size: x-large;
+}
+
+.pre-capa {
+    
+    width: 250px;
+    height: 130px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+main {
+    width: 300px;
+    margin-right: 130px;
+    margin-left: 20px; 
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: darkorange;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-login button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    cursor: pointer;
+    width: 48%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.social-login img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.social-login .google {
+    background-color: white;
+    color: black;
+}
+
+.social-login .apple {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

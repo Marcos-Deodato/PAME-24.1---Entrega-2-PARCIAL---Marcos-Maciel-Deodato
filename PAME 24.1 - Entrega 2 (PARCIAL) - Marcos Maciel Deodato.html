@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluxo Social - Login</title>
+    <title>FluxoSocial Login</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
-    <header>
-        <h1>Fluxo Social</h1>
-        <h2>It's happening now!</h2>
-    </header>
-    <main>
-        <section >
-            <h2>Faça seu login!</h2>
-            <form >
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-                <button type="submit">Entrar</button>
-            </form>
-            <a href="">Esqueci minha senha</a>
-        </section>
-    </main>
-    <footer>
-        <p> Fluxo Social</p>
-    </footer>
-   
+    <div class="container">
+        <header>
+            <div class="header-img">
+                <img src="img/logoFluxo.png" alt="FluxoSocial Logo" class="logo">
+                <h1>FluxoSocial</h1>
+            </div>
+            <div class="header-text">
+                <h2>It's happening now!</h2>
+            </div>
+        </header>
+        <div class="content">
+            <div class="espelho">
+                <h3 class="f-login">Faça seu login!</h3>
+                <img class="pre-capa" src="img/Pre-Capa.png" alt="">
+            </div>
+            <main>
+                <form class="login-form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                    <div class="options">
+                        <label><input type="checkbox" name="remember"> Lembrar-se de mim</label>
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                    <button  type="submit">Entrar</button>
+                    <div class="social-login">
+                        <button class="google" type="button"><img class="img-google" src="img/logoGoogle.png" alt=""> Entre com o Google</button>
+                        <button class="apple" type="button"><img class="img-apple" src="img/logoApple.png" alt=""> Entre com Apple</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Centro de ajuda</a></li>
+                <li><a href="#">Termos de serviço</a></li>
+                <li><a href="#">Políticas de privacidade</a></li>
+                <li><a href="#">Anunciantes</a></li>
+                <li><a href="#">Política de cookies</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="index.js"></script>
 </body>
-
 </html>
